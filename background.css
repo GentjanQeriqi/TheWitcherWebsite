@@ -1,0 +1,40 @@
+body {
+  background-image: url(background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  overflow: hidden;
+}
+header img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 20%;
+  padding-top: 40px;
+  position: center center;
+}
+
+html {
+  font-family: "Augusta";
+  src: url("Augusta.ttf") format("tff");
+  font-size: 28px;
+  color: #2d3436;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  width: initial;
+  background-image: url("footer.jpg");
+  background-repeat: no-repeat;
+  max-width: inherit;
+  background-size: cover;
+  padding: 125px;
+  background-position: center;
+  background-attachment: fixed;
+}
